@@ -1,3 +1,50 @@
 body {
+  font-family: Arial, sans-serif;
   background-color: aliceblue;
+}
+
+header {
+  background-color: blue;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.page-title {
+  color: white;
+  margin: 0;
+}
+
+.introduction {
+  padding: 20px;
+  background-color: beige;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.table-container {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+.caption {
+  text-align: center;
+  font-style: italic;
+  margin: 10px;
 }
